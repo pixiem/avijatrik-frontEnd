@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+
+
+.profile {
+    margin-top: 15px;
+    padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.profile__header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.profile__background {
+  border-radius: 10px 10px 0px 0px;
+}
+.profile__picture {
+  position: absolute;
+  bottom: -80px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.profile__content {
+  padding-top: 90px;
+  text-align: center;
+}
+.profile__bio {
+ 
+}
+.profile__name {
+  color: #37474F;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.profile__info {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+
+.profile__twitter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile__twitter__stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding: 15px 20px;
+  background: #ECEFF1;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transition: 0.2s;
+}
+.profile__twitter__stats:hover {
+  background: #CFD8DC;
+}
+.profile__twitter__stats--followers {
+  border-right: 1px solid #ddd;
+}
+.profile__twitter__stats__count {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.profile__twitter__follow {
+  flex-basis: 100%;
+}
+.profile__twitter__follow__button {
+  padding: 20px;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  background: #66BB6A;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.profile__twitter__follow__button:hover {
+  background: #4CAF50;
+}
+@media (max-width: 768px) {
+  .header-style{
+    font-size: 30px;
+    border-bottom: 5px solid red;
+    padding-bottom: 20px;
+  }
+}

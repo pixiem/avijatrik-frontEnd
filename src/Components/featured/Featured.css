@@ -1,0 +1,70 @@
+.respo{
+    text-align:center; 
+       font-weight:600; 
+       font-size:60px;
+       color:white;
+       padding-top:40px;
+}
+.single-activity-card{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 50px;
+    background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg");
+}
+
+.single-activity-card h4{
+    margin-left: 17px;
+}
+.activities-card{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.activities-fontss{
+    margin: 40px 0px  0px 22px;
+  color: #6D0909;
+    font-weight: 600;
+    font-size: 30px;
+    
+    padding: 0;
+}
+.hahahaha{
+    background: rgb(228,7,7);
+    background: linear-gradient(38deg, rgba(228,7,7,1) 0%, rgba(0,255,85,1) 100%);
+}
+.card-head{
+  
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:767px) { 
+    .respo{
+      
+            font-size: 40px;
+            
+        
+    }
+    .card-head{
+        width: 95%;
+       
+    display: flex;
+    flex-direction: column;
+   
+        
+    }
+    .single-activity-card{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        width: 93%;
+        border: 1px solid black;
+      
+    }
+
+  }

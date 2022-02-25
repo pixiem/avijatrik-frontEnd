@@ -1,0 +1,28 @@
+.singlePost{
+    width: 90%;
+    align-items: center;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+.approve{
+    margin-right: 5px;
+    border: none;
+ border-radius: 15px;
+    background-color: #FF013C ;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    width: 100px;
+}
+.deny{
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: #39b54a;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    width: 100px;
+}

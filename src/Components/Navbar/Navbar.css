@@ -1,0 +1,107 @@
+.logo-sec{
+   padding-top: 30px;
+}
+.profile-logo{
+   
+ margin-left: 75px;
+ margin-right: 75px;
+ margin-top: 20px;
+   padding-top: 18px;
+
+    width: 200px;
+
+    text-align: center;
+}
+
+
+.djbabu{
+  width: 200px;
+  float: right;
+  margin-top: 20px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.loginAndlog{
+  text-align: center;
+  height: 50px;
+text-decoration: none;
+  width: 93px;
+  border: 2px solid #39b54a;
+  border: none;
+  color: white;
+  font-size: 22px;
+margin-left: 60px;
+  background-color: #39b54a;
+  padding: 8px;
+}
+.pengingTitle{
+  text-align: center;
+    color: #6D0909;
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 26px;
+    margin-left: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    line-break: initial;
+    width: 90%;
+}
+
+.lregisterAndReg{
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+ margin-left: 8px;
+ width: 93px;
+  border: none;
+  font-size: 22px;
+  border: 2px solid #39b54a;
+  background-color: white;
+
+}
+.menu-item{
+  font-size: 10px;
+}
+.pendingPostWidth{
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+}
+@media (max-width:767px) { 
+  .desktop{
+        display: none;
+      }
+   
+   .miniLog{
+    border: none;
+    background-color: #39b54a;
+     text-align: center;
+    
+     width: 90px;
+   }
+
+  
+   .minireg{
+    text-align: center;
+    width: 90px;
+    border: 2px solid #39b54a;
+  background-color: white;
+    margin-top: 8px;
+   }
+   
+    
+}
+@media (min-width:767px) { 
+ .desktopMobile{
+   display: none;
+ }
+    .profile-logos{
+        display: none;
+      }
+      .mobile{
+        display: none;
+      }
+      .nothing{
+        display: none;
+      }
+      
+}

@@ -1,0 +1,22 @@
+.singleBtn{
+   border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 25%;
+    height: 10vh;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+.approvalTitle{
+    
+    text-align: center;
+    color: #6D0909;
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-break: initial;
+    width: 90%;
+}
