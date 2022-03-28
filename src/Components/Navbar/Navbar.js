@@ -339,7 +339,9 @@ const email = user.email;
                         </div>
                         {done && <div className="col profile-logo">
                             
-                            <div data-toggle="modal" data-target="#exampleModalCenter"><img style={{ borderRadius: "50%" }} width="40px" src={user.photoURL} alt="" />
+                            <div  data-toggle="modal" data-target="#exampleModalCenter"><img onclick={()=>{
+                                console.log(true)
+                            }} style={{ borderRadius: "50%" }} width="40px" src={user.photoURL} alt="" />
                                 <h5 style={{ fontWeight: "700", marginTop: "10px" }}>{user.displayName}</h5>
                             </div>
                             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
